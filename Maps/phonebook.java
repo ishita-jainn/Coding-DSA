@@ -22,7 +22,7 @@ public class phonebook {
             else{
                 System.out.println("Not found");
             }
-        }l
+        }
         sc.close();
     }
 }

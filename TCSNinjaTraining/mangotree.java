@@ -18,7 +18,10 @@ public class mangotree {
         else
 
             System.out.println("No");
+        
+            sc.close();
 
     }
+    
       
 }

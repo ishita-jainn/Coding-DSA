@@ -3,13 +3,9 @@ import java.util.*;
 public class ChocolateDistribution {
 
     public int mindiff(int[] nums , int m){
-        for(int i )
 
-        
-
-
+        int mindiff = 0 ;
         return mindiff;
-        
 
     }   
     
@@ -24,5 +20,7 @@ public class ChocolateDistribution {
         }
         ChocolateDistribution obj = new ChocolateDistribution();
         System.out.println(obj.mindiff(arr,m));
+
+        in.close();
     }
 }

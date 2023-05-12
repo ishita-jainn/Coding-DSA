@@ -1,8 +1,13 @@
 package Strings;
 import java.util.*;
-import java.lang.*;
+// import java.lang.*;
 
 public class lexicographic{
+    /**
+     * @param s
+     * @param k
+     * @return
+     */
     public static String getSmallestLargest( String s, int k){
         String smallest ="";
         String Largest ="";
