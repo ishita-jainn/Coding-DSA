@@ -66,7 +66,7 @@ public class ValidAnagram {
                     if(map.get(key) != map2.get(key)){
     
                         // System.out.println(key +" "+ map2.get(key));
-                        // System.out.println(key+" "+ map.get(key));
+                        // System.out.println(key+" "+ map.get(key));S
                         return false;
                     }
                     
