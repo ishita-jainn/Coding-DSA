@@ -149,7 +149,8 @@ public class ReverseLL {
         list.addLast(5);
         // list.printList();
         // list.deleteLast();
-        list.reverseIterate();
+        // list.reverseIterate();
+        list.head = list.reverseRecursion(list.head);
         list.printList();
         // list.getSize();
 
