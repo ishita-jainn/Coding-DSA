@@ -61,17 +61,13 @@ public class ReverseLL {
                 
             }
 
-            System.out.println("Null");
-            
-        
-
+            System.out.println("Null");   
     }
 
     public void deleteFirst(){
         if(head==null){
             System.out.println("List is empty");
             return;
-
         }
         else{
             size--;
@@ -104,7 +100,6 @@ public class ReverseLL {
     }
 
     public void reverseIterate(){
-
         if(head==null || head.next ==null){
             return;
         }
@@ -127,8 +122,6 @@ public class ReverseLL {
     public Node reverseRecursion(Node head){
         if(head ==null || head.next == null){
             return head;
-
-
         }
 
         Node newHead = reverseRecursion(head.next);
@@ -136,8 +129,6 @@ public class ReverseLL {
         head.next =null;
 
         return newHead;
-
-
     }
 
     
