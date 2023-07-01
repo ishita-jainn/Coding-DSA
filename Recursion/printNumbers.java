@@ -22,7 +22,7 @@ public class printNumbers {
         printNumbs(n+1);
 
     }
-
+    
     public static void main(String[] args) {
         int n =1;
         printNumbs(n);
