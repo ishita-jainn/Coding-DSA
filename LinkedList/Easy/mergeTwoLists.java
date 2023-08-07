@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.Easy;
 
 /**
  * Definition for singly-linked list.
