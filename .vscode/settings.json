@@ -1,4 +1,5 @@
 {
     "cph.general.onceMaintainerMessage": false,
-    "java.dependency.packagePresentation": "flat"
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.project.explorer.showNonJavaResources": true
 }
